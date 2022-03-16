@@ -8,6 +8,19 @@ h1 h2 ul {
   font-family: fredoka;
 }
 
+h1 {
+  font-family: fredoka;
+  color: black;
+  animation-duration: 4s;
+  animation-name: flash;
+}
+
+@keyframes flash {
+  from {color: black;}
+  to   {color: yellow;}
+  
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
